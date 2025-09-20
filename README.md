@@ -83,6 +83,5 @@ Line 3: all values must be integers
 python my_program.py <input_file> <output_file>
 ```
 
-- `<input_file>` → file with rows of three numbers (`A B goal`).  
-<<<<<<< HEAD
+- `<input_file>` → file with rows of three numbers (`A B goal`).
 - `<output_file>`_
