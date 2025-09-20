@@ -51,28 +51,31 @@ If the input file has incorrect rows, they will be skipped and reported at the e
 ### Example bad input
 ```
 5 8 31
+4 7 20
 4 7 20 99
-10 a 40
-3 6 18
+10 kissa 40
+3 6 
+8 9 52
 ```
 
 ### Screen output
 ```
 ✅ Successful rows:
-18:3 6 9 12 15
 20:4 7 8 12 14 16
 31:5 8 10 15 16 20 24 25 30
+52:8 9 16 18 24 27 32 36 40 45 48
 
 ⚠ Some rows had problems:
-Line 2: expected 3 numbers, got 4
-Line 3: all values must be integers
+Line 3: expected 3 numbers, got 4
+Line 4: all values must be integers
+Line 5: expected 3 numbers, got 2
 ```
 
 ### Output file: `output.txt`
 ```
-18:3 6 9 12 15
 20:4 7 8 12 14 16
 31:5 8 10 15 16 20 24 25 30
+52:8 9 16 18 24 27 32 36 40 45 48
 ```
 
 ---
