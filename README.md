@@ -94,4 +94,7 @@ Line 5: expected 3 numbers, got 2
 52:8 9 16 18 24 27 32 36 40 45 48
 ```
 
+## Requirements
 
+- Python 3.x
+- No external libraries required 
