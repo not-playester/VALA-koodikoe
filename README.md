@@ -29,7 +29,7 @@ python my_program.py <input_file> <output_file>
 
 ## Example
 
-### Input file: `input.txt`
+### Good input file: `input.txt`
 ```
 5 8 31
 4 7 20
@@ -59,7 +59,7 @@ python my_program.py input.txt output.txt
 
 If the input file has incorrect rows, they will be skipped and reported at the end.  
 
-### Example bad input
+### Bad input file: `input.txt`
 ```
 5 8 31
 4 7 20
@@ -67,6 +67,11 @@ If the input file has incorrect rows, they will be skipped and reported at the e
 10 kissa 40
 3 6 
 8 9 52
+```
+
+### Run
+```bash
+python my_program.py input.txt output.txt
 ```
 
 ### Screen output
