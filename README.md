@@ -16,6 +16,17 @@ This program finds all multiples of two numbers **A** and **B** that are **less 
 
 ---
 
+## Usage
+
+```bash
+python my_program.py <input_file> <output_file>
+```
+
+- `<input_file>` → file with rows of three numbers (`A B goal`).
+- `<output_file>` → store end result.
+
+---
+
 ## Example
 
 ### Input file: `input.txt`
@@ -78,13 +89,4 @@ Line 5: expected 3 numbers, got 2
 52:8 9 16 18 24 27 32 36 40 45 48
 ```
 
----
 
-## Usage
-
-```bash
-python my_program.py <input_file> <output_file>
-```
-
-- `<input_file>` → file with rows of three numbers (`A B goal`).
-- `<output_file>` → store end result.
