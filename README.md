@@ -84,4 +84,4 @@ python my_program.py <input_file> <output_file>
 ```
 
 - `<input_file>` → file with rows of three numbers (`A B goal`).
-- `<output_file>`_
+- `<output_file>` → store end result.
